@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VU VAN HOANG — Online CV</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --primary: #0f2c59;
+    --accent: #1a5276;
+    --bg: #f4f6f8;
+    --text: #1f2937;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(15, 44, 89, 0.15);
+    padding: 48px 40px;
+    max-width: 440px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .photo {
+    width: 120px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top center;
+    border: 3px solid #e8eef5;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #5b6570;
+    margin-bottom: 28px;
+  }
+
+  .lang-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    border: 2px solid #e8eef5;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s ease;
+    background: #fff;
+  }
+
+  .lang-btn:hover {
+    border-color: var(--primary);
+    background: #f0f4f8;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(15, 44, 89, 0.1);
+  }
+
+  .lang-btn .flag {
+    font-size: 28px;
+    line-height: 1;
+    width: 36px;
+    text-align: center;
+  }
+
+  .lang-btn .info {
+    text-align: left;
+    flex: 1;
+  }
+
+  .lang-btn .info .lang-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary);
+    display: block;
+  }
+
+  .lang-btn .info .lang-desc {
+    font-size: 12px;
+    color: #5b6570;
+    display: block;
+    margin-top: 1px;
+  }
+
+  .lang-btn .arrow {
+    color: #c5d0de;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .lang-btn:hover .arrow {
+    color: var(--primary);
+  }
+
+  .footer {
+    margin-top: 28px;
+    font-size: 11px;
+    color: #aab4bf;
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 36px 24px; }
+    h1 { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <img src="photo.png" alt="VU VAN HOANG" class="photo" />
+  <h1>VU VAN HOANG</h1>
+  <div class="subtitle">Control Design Engineer · FA / PLC · Software Development</div>
+
+  <div class="lang-list">
+    <a href="CV_VU_VAN_HOANG_JA.html" class="lang-btn">
+      <span class="flag">🇯🇵</span>
+      <span class="info">
+        <span class="lang-name">日本語</span>
+        <span class="lang-desc">Japanese — Primary Language</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+
+    <a href="CV_VU_VAN_HOANG_EN.html" class="lang-btn">
+      <span class="flag">🇬🇧</span>
+      <span class="info">
+        <span class="lang-name">English</span>
+        <span class="lang-desc">English — International</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+
+    <a href="CV_VU_VAN_HOANG_VI.html" class="lang-btn">
+      <span class="flag">🇻🇳</span>
+      <span class="info">
+        <span class="lang-name">Tiếng Việt</span>
+        <span class="lang-desc">Vietnamese — Native Language</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <div class="footer">Curriculum Vitae · Updated August 2026</div>
+</div>
+</body>
+</html>

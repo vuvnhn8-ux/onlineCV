@@ -1,0 +1,35 @@
+=== PROJECTS ===
+
+1. ReMarket
+   - Description: Used goods marketplace web platform
+   - Technologies: Web development, Full-stack
+   - URL: https://remarket.hoangvuvan.xyz/
+   - Category: Web Development
+   - AI-assisted: Yes
+
+2. HATSCADA
+   - Description: Real-time factory monitoring SCADA system with PLC integration
+   - Technologies: C#, .NET, PLC communication, Web-based monitoring
+   - URL: https://hatscada.hoangvuvan.xyz/
+   - Category: Industrial / FA
+   - AI-assisted: Yes
+
+3. TubeMake
+   - Description: AI-powered automated video creation platform
+   - Technologies: Python, AI/Video APIs, Automation
+   - URL: https://tubemake.hoangvuvan.xyz/
+   - Category: AI / Automation
+   - AI-assisted: Yes
+
+4. AutoCut
+   - Description: Automated video cutting tool from YouTube links
+   - Technologies: Python, Video processing, YouTube API, Automation
+   - URL: https://autocut.hoangvuvan.xyz/
+   - Category: Automation / Media
+   - AI-assisted: Yes
+
+5. Portfolio
+   - Description: Personal portfolio website
+   - Technologies: HTML, CSS, JavaScript
+   - URL: https://portfolio.hoangvuvan.xyz/
+   - Category: Web Development
