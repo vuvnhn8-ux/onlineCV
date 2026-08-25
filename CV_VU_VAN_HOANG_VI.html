@@ -283,6 +283,19 @@
     text-decoration: underline;
   }
 
+  .blink {
+    animation: blink-anim 1.2s steps(2, start) infinite;
+    color: #e74c3c;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+
+  @keyframes blink-anim {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
   .skill-category {
     margin-bottom: 8px;
   }
@@ -463,31 +476,31 @@
       <h2>Dự án</h2>
 
       <div class="project-item">
-        <div class="project-name">ReMarket <span class="project-link"><a href="https://remarket.hoangvuvan.xyz/" target="_blank">🌐 remarket.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">ReMarket <span class="project-link"><a href="https://remarket.hoangvuvan.xyz/" target="_blank">🌐 remarket.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Sàn thương mại điện tử đồ cũ</div>
         <div class="project-tech">Phát triển Web Full-stack &middot; Phát triển hỗ trợ AI</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">HATSCADA <span class="project-link"><a href="https://hatscada.hoangvuvan.xyz/" target="_blank">🌐 hatscada.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">HATSCADA <span class="project-link"><a href="https://hatscada.hoangvuvan.xyz/" target="_blank">🌐 hatscada.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Hệ thống giám sát nhà máy SCADA thời gian thực với tích hợp PLC</div>
         <div class="project-tech">C#, .NET, Truyền thông PLC, Giám sát Web</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">TubeMake <span class="project-link"><a href="https://tubemake.hoangvuvan.xyz/" target="_blank">🌐 tubemake.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">TubeMake <span class="project-link"><a href="https://tubemake.hoangvuvan.xyz/" target="_blank">🌐 tubemake.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Nền tảng tạo video AI tự động</div>
         <div class="project-tech">Python, API AI/Video, Tự động hóa &middot; Phát triển hỗ trợ AI</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">AutoCut <span class="project-link"><a href="https://autocut.hoangvuvan.xyz/" target="_blank">🌐 autocut.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">AutoCut <span class="project-link"><a href="https://autocut.hoangvuvan.xyz/" target="_blank">🌐 autocut.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Công cụ cắt video tự động từ link YouTube</div>
         <div class="project-tech">Python, Xử lý video, YouTube API &middot; Phát triển hỗ trợ AI</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">Portfolio <span class="project-link"><a href="https://portfolio.hoangvuvan.xyz/" target="_blank">🌐 portfolio.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">Portfolio <span class="project-link"><a href="https://portfolio.hoangvuvan.xyz/" target="_blank">🌐 portfolio.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Website portfolio cá nhân</div>
         <div class="project-tech">HTML, CSS, JavaScript</div>
       </div>

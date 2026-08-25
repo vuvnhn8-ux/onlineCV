@@ -291,6 +291,19 @@
     text-decoration: underline;
   }
 
+  .blink {
+    animation: blink-anim 1.2s steps(2, start) infinite;
+    color: #e74c3c;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+
+  @keyframes blink-anim {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
   .skill-category {
     margin-bottom: 8px;
   }
@@ -472,31 +485,31 @@
       <h2>Projects</h2>
 
       <div class="project-item">
-        <div class="project-name">ReMarket <span class="project-link"><a href="https://remarket.hoangvuvan.xyz/" target="_blank">🌐 remarket.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">ReMarket <span class="project-link"><a href="https://remarket.hoangvuvan.xyz/" target="_blank">🌐 remarket.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Used goods marketplace web platform</div>
         <div class="project-tech">Full-stack Web Development &middot; AI-assisted development</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">HATSCADA <span class="project-link"><a href="https://hatscada.hoangvuvan.xyz/" target="_blank">🌐 hatscada.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">HATSCADA <span class="project-link"><a href="https://hatscada.hoangvuvan.xyz/" target="_blank">🌐 hatscada.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Real-time factory monitoring SCADA system with PLC integration</div>
         <div class="project-tech">C#, .NET, PLC Communication, Web-based Monitoring</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">TubeMake <span class="project-link"><a href="https://tubemake.hoangvuvan.xyz/" target="_blank">🌐 tubemake.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">TubeMake <span class="project-link"><a href="https://tubemake.hoangvuvan.xyz/" target="_blank">🌐 tubemake.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">AI-powered automated video creation platform</div>
         <div class="project-tech">Python, AI/Video APIs, Automation &middot; AI-assisted development</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">AutoCut <span class="project-link"><a href="https://autocut.hoangvuvan.xyz/" target="_blank">🌐 autocut.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">AutoCut <span class="project-link"><a href="https://autocut.hoangvuvan.xyz/" target="_blank">🌐 autocut.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Automated video cutting tool from YouTube links</div>
         <div class="project-tech">Python, Video Processing, YouTube API &middot; AI-assisted development</div>
       </div>
 
       <div class="project-item">
-        <div class="project-name">Portfolio <span class="project-link"><a href="https://portfolio.hoangvuvan.xyz/" target="_blank">🌐 portfolio.hoangvuvan.xyz</a></span></div>
+        <div class="project-name">Portfolio <span class="project-link"><a href="https://portfolio.hoangvuvan.xyz/" target="_blank">🌐 portfolio.hoangvuvan.xyz</a></span> <span class="blink">← Click</span></div>
         <div class="project-desc">Personal portfolio website</div>
         <div class="project-tech">HTML, CSS, JavaScript</div>
       </div>
